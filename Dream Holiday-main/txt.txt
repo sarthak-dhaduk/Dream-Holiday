@@ -1,0 +1,353 @@
+<?php
+          $q_normal_data_dubai="SELECT `tour_name` FROM `normal_data_tour` WHERE tour_name='Dobai Tour'";
+          $q_normal_data_dubai_r=mysqli_fetch_assoc(mysqli_query($con, $q_normal_data_dubai));
+        ?>
+        <p><?php echo $q_normal_data_dubai_r['tour_name']?></p>
+
+
+
+
+        <div class="col-lg-4 col-md-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" data-groups="[&quot;government&quot;,&quot;commercial&quot;,&quot;education&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour1.jpg">
+                <img class="img-fluid" src="images/projects/Tour1.jpg" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php?tour=Galapagos-Cruise">Galapagos-Cruise</a>
+                  </h3>
+                  <p class="project-cat">international, Cruise, Sea Side</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 1 end -->
+
+          <div class="col-lg-4 col-md-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" data-groups="[&quot;government&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour2.jpg">
+                <img class="img-fluid" src="images/projects/Tour2.jpg" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php?tour=Dubai">Dubai</a>
+                  </h3>
+                  <p class="project-cat">international</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 2 end -->
+
+          <div class="col-lg-4 col-md-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" data-groups="[&quot;infrastructure&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour3.jpg">
+                <img class="img-fluid" src="images/projects/Tour3.jpg" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php?tour=Gujrat">Gujrat</a>
+                  </h3>
+                  <p class="project-cat">national</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 3 end -->
+
+          <div class="col-lg-4 col-md-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" data-groups="[&quot;infrastructure&quot;,&quot;education&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour4.jpg">
+                <img class="img-fluid" src="images/projects/Tour4.jpg" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php?tour=Goa">Goa</a>
+                  </h3>
+                  <p class="project-cat">national, sea side</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 4 end -->
+
+          <div class="col-lg-4 col-md-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" data-groups="[&quot;residential&quot;,&quot;infrastructure&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour5.jpg">
+                <img class="img-fluid" src="images/projects/Tour5.jpg" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php?tour=Trekking-Manali">Trekking-Manali</a>
+                  </h3>
+                  <p class="project-cat">Trekking, national</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 5 end -->
+
+          <div class="col-lg-4 col-md-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" data-groups="[&quot;residential&quot;,&quot;infrastructure&quot;]">
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour6.jpg">
+                <img class="img-fluid" src="images/projects/Tour6.jpg" alt="project-image">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php?tour=Trekking-Kasmir">Trekking-Kasmir</a>
+                  </h3>
+                  <p class="project-cat">Trekking, national</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 6 end -->
+
+
+
+
+
+
+          <ul class="comments-reply">
+                <li>
+                  <div class="comment d-flex">
+                    <!-- <img loading="lazy" class="comment-avatar" alt="author" src="images/news/avator2.png"> -->
+                    <div class="comment-body">
+                      <div class="meta-data">
+                        <span class="comment-author mr-3">Tom Harnandez</span>
+                        <span class="comment-date float-right">January 17, 2016 at 1:38 pm</span>
+                      </div>
+                      <div class="comment-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                          laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen.</p>
+                      </div>
+                      <div class="text-left">
+                        <a class="comment-reply font-weight-bold" href="#">Reply</a>
+                      </div>
+                    </div>
+                  </div><!-- Comments end -->
+                </li>
+              </ul><!-- comments-reply end -->
+              <div class="comment d-flex last">
+                <!-- <img loading="lazy" class="comment-avatar" alt="author" src="images/news/avator3.png"> -->
+                <div class="comment-body">
+                  <div class="meta-data">
+                    <span class="comment-author mr-3">Genelia Dusteen</span>
+                    <span class="comment-date float-right">January 17, 2016 at 1:38 pm</span>
+                  </div>
+                  <div class="comment-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen.</p>
+                  </div>
+                  <div class="text-left">
+                    <a class="comment-reply font-weight-bold" href="#">Reply</a>
+                  </div>
+                </div>
+              </div><!-- Comments end -->
+
+
+
+
+
+
+
+
+                // $userdata= mysqli_fetch_array($q_result);
+
+                            // $username=$userdata['username'];
+                            // $token=$userdata['token'];
+
+
+                            // $subject ="Password Recover";
+                            // $body = "Hello, $username. click Here To For Recover Your Password http://localhost/main/new_password.php?token=$token";
+                            // $sender_email = "From: sdhaduk666@rku.ac.in";
+
+                            if(mail($email, $subject, $body, $sender_email)){
+                                
+                                header("location:login.php");
+                            }
+                            else{
+                                echo "Email is not send";
+                            }
+                        }
+                        else{
+                            echo "Email Is Not Found...";
+                        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-lg-4 col-sm-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" >
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour1.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/Tour1.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php">Galapagos Luxury Cruise</a>
+                  </h3>
+                  <p class="project-cat">international, Cruise, Sea Side</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 1 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" >
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour2.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/Tour2.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php">Dubai Tour</a>
+                  </h3>
+                  <p class="project-cat">international</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 2 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" >
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour3.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/Tour3.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php">Gujrat Tour</a>
+                  </h3>
+                  <p class="project-cat">national</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 3 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" >
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour4.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/Tour4.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php">Goa Tour</a>
+                  </h3>
+                  <p class="project-cat">national, sea side</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 4 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" >
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour5.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/Tour5.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php">Trekking In Manali</a>
+                  </h3>
+                  <p class="project-cat">Trekking, national</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 5 end -->
+
+          <div class="col-lg-4 col-sm-6 shuffle-item" style="padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px;" >
+            <div class="project-img-container">
+              <a class="gallery-popup" href="images/projects/Tour6.jpg" aria-label="project-img">
+                <img class="img-fluid" src="images/projects/Tour6.jpg" alt="project-img">
+                <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+              </a>
+              <div class="project-item-info">
+                <div class="project-item-info-content">
+                  <h3 class="project-item-title">
+                    <a href="projects-single.php">Trekking In Jammu & Kasmir</a>
+                  </h3>
+                  <p class="project-cat">Trekking, national</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- shuffle item 6 end -->
+
+
+
+          <?php $check_date=date("Y-m-d");?>
+          min="<?php echo $check_date;?>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
